@@ -1,0 +1,125 @@
+{
+  "app": {
+    "name": "i18next"
+  },
+  "home": {
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+
+  "menu": {
+  	"inicio": "Inicio",
+    "usuario": "Usuario",
+    "actividad": "Actividad",
+    "redes": "Redes",
+    "servicios": "Servicios"
+  },
+ 
+  "opciones": {
+  	"idioma": "Selección de idioma (Español / Català)", 
+  	"tipouser": "Tipo de usuario (particular / Empresa)",
+  	"part": "Part",
+  	"comp": "Comp",
+    "introducir": "Introduzca aquí su código de cliente",
+    "validar": "Valida",
+    "e-mail": "e-mail"
+  },
+  
+  "index": {
+    "ofertas":"Ofertas"
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail",
+    "localizacion": "Localización"
+  },
+  
+  
+  "usuario": {
+  	"solicitud": "Solicitud de código de barras, recibirá por e-mail su código. ",
+    "introducir": "Si ha recibido su código de barras, pulse a coninuación para introducirlo. ",
+    "pulse": "Introducir su código de barras",
+    "solicitar": "Solicitar código de cliente"
+  },
+
+  "actividad": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+  
+  "redes": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+  
+  "servicio": {
+  	"af": "Atención farmacéutica",
+    "spd": "SPD",
+    "ad": "Asesoramiento en dietética y alimentación nutricional",
+    "deporte": "Deporte",
+  	"fito": "Fitoterapia Aromaterapia",
+    "homeo": "Homeopatia",
+    "dermo": "Dermofarmácia",
+    "ain": "Alimentación infantil",
+    "ayudas": "Ayudas ortopédicas", 
+  	"formulas": "Fórmulas magistrales",
+    "veterinaria": "Veterinaria",
+    "sigre": "Punto Sigre",
+    "web": "Web",
+   	"taf": ["Entendemos por Atención Farmac&eacute;utica, el proceso cooperativo para la provisión responsable de terapias farmacológicas a todos los pacientes de forma individualizada,  con el objetivo de resolver, buscar y prevenir  problemas relacionados con los medicamentos.",
+			"Sabemos que la polimedicación sin una correcta Atención Farmac&eacute;utica, puede dar lugar a importantes problemas de salud.",
+			"Le ofrecemos la posibilidad de hacerle un seguimiento de su tratamiento así como resolverle cualquier duda sobre su medicación para tratar de alcanzar los resultados  de salud esperados y mantener o mejorar su calidad de vida."
+			],
+	"tspd": ["El Sistema Personalizado de Dosificación de medicamentos consiste en preparar semanalmente la medicación de nuestros pacientes , seg&uacute;n un sistema protocolizado , acreditado por el Colegio Oficial de Farmac&eacute;uticos de Barcelona, y bajo el consentimiento informado de su m&eacute;dico.",
+			"Los sistemas personalizados de dosificación, son unos dispositivos de tipo blister, donde está distribuida toda la medicación de forma farmac&eacute;utica sólida que toma el paciente, quedando excluidas las formas farmac&eacute;uticas no sólidas como los jarabes, los aerosoles, las pomadas, los comprimidos higroscópicos ,...",
+			"El dispositivo, consta de 28 alveolos para distribuir la medicación de una semana, quedando claramente identificados en lunes, martes, miercoles, jueves, viernes, sábado, domingo en Vertical y en ma&ntilde;ana, mediodia, tarde y noche en horizontal.",
+			"La cara anterior del dispositivo, permite ver los medicamentos dentro de los alveolos transparentes y tiene suficiente espacio para adherir una etiqueta con los medicamentos, que por diversas causas no se pueden acondicionar."
+			],
+    "tad": ["Para obtener una mejor calidad de vida, combinando la actividad física, una dieta equilibrada y los complementos nutricionales adecuados, disponemos de una licenciada Farmac&eacute;utica y diplomada en Diet&eacute;tica y Nutrición Humana por la universidad Alfonso X el Sabio de Madrid, que le ense&ntilde;ará a elaborar su propia dieta para aprender a comer saludablemente de acuerdo con sus necesidades reales.",
+				"Elaboramos  dietas en patologías ( Dietoterapia ) como Obesidad, Diabetis, Colesterol, An&eacute;mia, Insuficiencia Renal, Insuficiencia Hepática, Celiaquía, Intolerancia a la Lactosa...",
+				"Para ello, disponemos de una extensa gama de alimentos sin gluten, sin az&uacute;cares, ricos en fibra, ricos en ácidos Omega 3, así como nutricíón macrobiótica y complementos de micronutrición."
+				],
+    "tdeporte": ["Sabemos que el ejercicio físico es básico e indispensable para tener una buena calidad de vida, por ello disponemos de un  amplio surtido de complementos nutricionales y alimentos funcionales que benefician el rendimiento de la actividad  física así como la salud de nuestros pacientes. ",
+				"Nuestro equipo, tambi&eacute;n podrá asesorarle en todo tipo de ayudas t&eacute;cnicas para los amantes del deporte. "
+				],
+  	"tfito": ["La Fitoterapia es la rama de la medicina que utiliza las plantas con propiedades terapeuticas para curar determinadas afecciones.",
+				"Los preparados fitoterapeuticos pueden formarse a partir de la planta entera o solamente de una parte de ella. Seg&uacute;n la parte que se utilice, puede tener diferente aplicaciones .",
+				"La Aromaterapia, es la terapia mediante aromatos, es decir, mediante los aceites esenciales que se extraen de las plantas aromáticas.",
+				"Es por tanto una terapia natural que se basa en la acción terapeutica de moleculas bioquímicas de los aceites esenciales.",
+				"El aceite esencial, es el extracto obtenido al destilar la esencia de la planta. Están formados por una compleja composición de elementos orgánicos combinados, por ello se les atribuyen numerosas propiedades terapeuticas.", 
+				"Se debe tener precaución en su uso en embarazo, lactancia, reci&eacute;n nacidos y ni&ntilde;os inferiores a 2 a&ntilde;os de edad, epilepsia, y pacientes tratados con homeoptia que deben evitar tomar aceite essencial de menta, ya que disminuye la absorción del medicamento homeopático.",
+				"En Farmacia Marta Gento, disponemos de una amplia gama de productos para la prevención y el tratamiento de enfermedades o patologias con plantas medicinales y/ o aceites esenciales."
+				],
+    "thomeo": ["Hahneman, creia que la enfermedad se podia curar mediante el principio de la similitud, es decir administrando a un enfermo una sustancia que le produciera a un sujeto sano los mismos síntomas que el enfermo tenia.",
+				"Así pues, una misma enfermedad, puede tener m&uacute;ltiples tratamientos seg&uacute;n como lo manifieste el individuo.",
+				"El remedio homeopatico, act&uacute;a por diluciones y dinamizaciones de extractos de origen vegetal, animal, y mineral en una base líquida ( glicerina, alcohol, agua destilada ), sólida ( sacarosa, lactosa ), o trituración ( polvo de lactosa).",
+				"Las diferentes cepas homeopaticas, se presentan individualmente o formando compuestos específicos para las diferentes dolencias.",
+				"Puede consultar  cualquier duda a nuestra licenciada en Farmacia y Homeopata  por la Universidad de Medicina de Zaragoza."
+				],
+    "tdermo": ["El cuidado del cuerpo y el rostro, es fundamental para nuestra salud y bienestar.",
+				"Nuestra experta en dermofarmacia,  conoce los beneficios de un amplio y extenso surtido de productos, pudiendo aconsejar  y elegir la mejor opción para cada necesidad.",  
+				"La constante formación de nuestro equipo, nos posiciona como una farmacia de referencia en el cuidado facial y corporal.",
+				"Disponemos  de las &uacute;ltimas novedades dermocosm&eacute;ticas, y de todo tipo de productos  naturales, bio, sin parabenos, hipoaleg&eacute;nicos, correctores, etc."
+				],
+    "tain": ["La correcta alimentación desde el inicio de nuestras vidas, es fundamental para un correcto desarroyo físico y mental.",
+						"La adecuada introducción de los alimentos en  nuestros primeros meses de vida ( Beikost ), así como la calidad de los mismos, determina el futuro de nuestra salud .",
+						"Disponemos de un amplio surtido de alimentación infantil de máxima calidad con la atención personalizada de nuestra farmac&eacute;utica experta en alimentación y suplementación infantil."
+						],
+    "tayudas": ["La ortopedia es una especialidad m&eacute;dica dedicada a corregir o evitar las deformidades o traumas del sistema musculoesqueletico del cuerpo humano, por medio de ortesis ( aparatos ) o ejercicios corporales.",
+				"Existe una gran variedad de ayudas ortopedicas que le pueden proporcionar  una mayor comodidad en su desarrollo físico.",
+				"Consultenos."
+				], 
+  	"tformulas": ["La Formula Magistral, es un medicamento destinado a un paciente en específico, preparado por el farmac&eacute;utico, cumplimentando expresamente una prescripción m&eacute;dica detallada de las sustancias medicinales que incluye, seg&uacute;n las normas t&eacute;cnicas y científicas del arte farmac&eacute;utico, dispensado en su farmacia y con la debida información al usuario.",
+ 				"Disponemos de un laboratorio en nuestras instalaciones destinado a la elaboración de Formulas Magistrales bajo prescripción m&eacute;dica y de Productos Oficinales."
+				],
+    "tveterinaria": "Amplia sección de productos de veterinaria para cuidar sus mascotas y evitar zoonosis, es decir, toda enfermedad que pueda transmitirse de animales a seres humanos. Igualmente podemos encargar cualquier producto que necesite.",
+    "tsigre": "Recojemos los envases y restos de medicamentos de orígen dom&eacute;stico que ya no se usan o que están caducados para una correcta gestión medioambiental.  ",
+    "tweb": "Nos adaptamos a las nuevas tecnologías, ofreciendole la posibilidad de realizar sus compras de parafarmacia desde casa. "   
+    
+    
+  }
+}

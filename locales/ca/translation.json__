@@ -1,0 +1,71 @@
+{
+  "app": {
+    "name": "i18next"
+  },
+  "home": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+
+  "menu": {
+  	"inicio": "Inici",
+    "usuario": "Usuari",
+    "actividad": "Activitat",
+    "redes": "Redes",
+    "servicios": "Serveis"
+  },
+ 
+  "opciones": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+  
+  "index": {
+      "ofertas": "Ofertes",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail",
+    "localizacion": "Localización"
+  },
+  
+  
+  "user": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+
+  "actividad": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+  
+  "redes": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+  
+  "ofertas": {
+  	"fotoprotector": "protector ISDIN",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+    
+  
+  "servicios": {
+  	"casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  }
+}

@@ -1,0 +1,137 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+{
+  "app": {
+    "name": "i18next",
+    "confirmareserva":"Desitja confirmar la reserva per: ",
+    "errorreserva":"S'ha produit un error en la seva reserva",
+    "nohaycodigo":"Es necessari un codi d'usuari, pot demanar-lo a la opció usuari",
+    "anadido":"Afegit al seu calendari.",
+    "nohaycalendario":"No hi ha cap calendari configurat en el seu dispositiu",
+    "codincorrecto":"Códi incorrecte",
+    "solo12digitos":"Només ha de introduir els primer 12 números"
+  },
+  "home": {
+    "tienda": "Botiga",
+    "llamar": "Trucar",
+    "e-mail": "e-mail"
+  },
+
+  "menu": {
+  	"inicio": "Inici",
+    "usuario": "Usuari",
+    "actividad": "Activitat",
+    "redes": "Xarxes",
+    "servicios": "Serveis"
+  },
+ 
+  "opciones": {
+  	"idioma": "Sel·lecció d'idiomes (Español / Català)", 
+  	"tipouser": "Tipus d'usuari (particular / Empresa)",
+  	"part": "Part",
+  	"comp": "Comp",
+    "introducir": "Introdueixi aqui el seu còdi de client",
+    "validar": "Vàlid",
+    "e-mail": "e-mail"
+  },
+  
+  "index": {
+    "ofertas":"Ofertes",
+    "tienda": "Botiga",
+    "llamar": "Trucar",
+    "e-mail": "e-mail",
+    "localizacion": "Localització",
+     "notificacion": "Les notificacions s'eliminan al tancar l'app"
+  },
+  
+  
+  "usuario": {
+  	"solicitud": "Sol·licitud de còdi de barres, rebrà per e-mail el seu còdi. ",
+    "introducir": "Si ha rebut el seu còdi de barres, premi a continuació per introduir-ho. ",
+    "pulse": "Introduir el seu còdi de barres",
+    "solicitar": "Sol·licitar el còdi de client"
+  },
+
+  "actividad": {
+  	"casa": "Inici",
+    "tienda": "Botiga",
+    "llamar": "Trucar",
+    "e-mail": "e-mail"
+  },
+  
+  "redes": {
+  	"casa": "Inici",
+    "tienda": "Botiga",
+    "llamar": "Trucar",
+    "e-mail": "e-mail"
+  },
+  
+  "servicio": {
+  	"af": "ATENCIÓ FARMACÈUTICA",
+    "spd": "SPD",
+    "ad": "ASSESSORAMENT EN DIETÉTICA I EDUCACIÓ NUTRICIONAL",
+    "deporte": "ESPORT",
+  	"fito": "FITOTERÀPIA AROMATERÀPIA",
+    "homeo": "HOMEOPATIA",
+    "dermo": "DERMOFARMÀCIA",
+    "ain": "ALIMENTACIÓ INFANTIL",
+    "ayudas": "AJUDES ORTOPÈDIQUES", 
+  	"formulas": "FóRMULES MAGISTRALS",
+    "veterinaria": "VETERINÀRIA",
+    "sigre": "PUNT SIGRE",
+    "web": "Web",
+   	"taf": ["Entenem per Atenció Farmacèutica, el procés corporatiu per la provisió responsable de teràpies farmacològiques a tots els pacients de manera individualitzada, amb l'objectiu de resoldre, buscar i prevenir problemes relacionats amb els medicaments.",
+			"Sabem que la polimedicació sense una correcta Atenció Farmacèutica, pot donar lloc a importants problemes de salut.",
+			"Li oferim la possibilitat de fer-li un seguiment del seu tractament, així com resoldre qualsevol dubte sobre la seva medicació per tractar d'assolir els resultats de salut esperats i mantenir o millorar la seva qualitat de vida."
+			],
+	"tspd": ["El Sistema Personalitzat de Dosificació de medicaments consisteix en preparar setmanalment la medicació dels nostres pacients, segons un sistema protocol•litzat, acreditat pel Col•legi Oficial de Farmacèutics de Barcelona, i sota el consentiment informat del seu metge.",
+			"Els sistemes personalitzats de dosificació, són uns dispositius de blister, on està distribuïda tota la medicació de forma farmacèutica sòlida que pren el pacient, quedant excloses les formes farmacèutiques no sòlides com els xarops, els aerosols, les pomades, els comprimits higroscòpics,...",
+			"El dispositiu, consta de 28 alvèols per distribuir la medicació d'una setmana, quedant clarament identificats en dilluns, dimarts, dimecres, dijous, divendres, dissabte, diumenge en Vertical el matí, migdia, tarda i nit en horitzontal.",
+			"La cara anterior del dispositiu, permet veure els medicaments dins dels alvèols transparents i té prou espai per adherir una etiqueta amb els medicaments que, per diverses causes no es poden condicionar." 
+			],
+    "tad": ["Per obtenir una millor qualitat de vida, combinant l'activitat física, una dieta equilibrada i els complements nutricionals adequats, disposem d'una llicenciada Farmacèutica i diplomada en Dietètica i Nutrició Humana per la universitat Alfons X el Savi de Madrid, que li ensenyarà a elaborar la seva pròpia dieta per aprendre a menjar saludablement d'acord amb les seves necessitats reals.",
+				"Elaborem dietes en patologies (Dietoteràpia) com Obesitat, Diabetis, Colesterol, anèmia, Insuficiència Renal, Insuficiència Hepàtica, Celiaquia, Intolerància a la Lactosa.",
+				"Per a això, disposem d'una extensa gamma d'aliments, sense gluten, sense sucre, rics en fibra, rics en Àcids Omega 3, així com nutrició macrobiòtica i complements de micronutrició."
+				],
+    "tdeporte": ["Sabem que l'exercici físic és bàsic i indispensable per tenir una bona qualitat de vida, per això disposem d'un ampli assortiment de complements nutricionals i aliments funcionals que beneficien el rendiment de l'activitat física, així com la salut dels nostres pacients.",
+				"Disposeu de tot tipus d'ajudes tècniques per els amants de l'esport. El nostre equip et pot assessorar."
+				],
+  	"tfito": ["La Fitoteràpia és una branca de la medicina que utilitza les plantes amb propietats terapèutiques per curar determinades afeccions.",
+				"Els preparats fito terapèutics poden formar-se a partir de la planta sencera o només d'una part. Segons la part que se n’utilitzin, pot tenir diferents aplicacions.",
+				"La Aromateràpia, és la teràpia mitjançant aromatos, és a dir, mitjançant els olis essencials que s'extreuen de les plantes aromàtiques.",
+				"És per tant una teràpia natural que es bassa en l'acció terapèutica de molècules bioquímiques dels olis essencials.",
+				"L'oli essencial, és l'extracte obtingut al destil•lar l’essència de la planta. S'els atribueixen nombroses propietats terapèutiques ates que estan formats per una complexa composició d'elements orgànics combinats.", 
+				"S'ha de tenir precaució del seu ús en embaràs, lactància, nounats i nens inferiors a 2 anys d'edat, epilèpsia, i pacients tractats amb homeopatia que han d'evitar prendre oli Essencial de menta, ja que disminueix l'absorció del medicament homeopàtic.",
+				"Ha Farmàcia Marta Gento, disposem d'una àmplia gamma de productes per a la prevenció i el tractament de malalties o patologies amb plantes medicinals i olis essencials."
+				],
+    "thomeo": ["Hahneman, creia que la malaltia es podia curar mitjançant el principi de la similitud, és a dir administrant a un malalt una substància que li produís a un subjecte sa els mateixos símptomes que el malalt tenia.",
+				"Així doncs, una mateixa malaltia, pot tenir múltiples tractaments segons com ho manifesti l'individu.",
+				"El remei homeopàtic, actua per dilucions i dinamitzacions d'extractes d'origen vegetal, animal, i mineral en una base líquida (glicerina, alcohol, aigua destil•lada), sòlida (sacarosa, lactosa), o trituració (pols de lactosa).",
+				"Les diferents soques homeopàtiques, es presenten individualment o formant compostos específics per les diferents dolencies.",
+				"Pot consultar qualsevol dubte a la nostra llicenciada en Farmàcia i Homeòpata  per la Universitat de Medicina de Saragossa."
+				],
+    "tdermo": ["La cura del cos i la cara, és fonamental per la nostra salut i benestar.",
+				"La nostra experta en dermofarmàcia,  coneix els beneficis d'un ampli i extens assortiment de productes, la podré aconsellar i triar la millor opció per cada necessitat.",  
+				"La constant formació del nostre equip, ens posiciona com una farmàcia de referència en la cura facial i corporal.",
+				"Disposem de les últimes novetats dermocosmètiques, i tot tipus de productes naturals, bio, sense paravents, hipoal•lergènics, correctors, etc."
+				],
+    "tain": ["La correcta alimentació desde l'inici de les nostres vides, és fonamental per a un correcte desenvolupament físic i mental.",
+				"L’adequada introducció dels aliments durant els nostres primers mesos de vida ( Beikost ), així com la qualitat dels mateixos, determina el futur de la nostra salut.",
+				"Disposem d'un ampli assortiment d'aliments infantils de màxima qualitat amb l'atenció personalitzada de la nostra farmacèutica experta en alimentació i suplementació infantil."
+				],
+    "tayudas": ["La ortopèdia és una especialitat mèdica dedicada a corregir o evitar les deformitats o traumes del sistema musculoesquelètic del cos humà, per mitjà d'ortesis (aparells) o exercicis corporals.",
+				"Existeix una gran varietat d'ajudes ortopèdiques que li poden proporcionar una major comoditat en el seu desenvolupament físic.",
+				"Consulteu-nos."
+				], 
+  	"tformulas": ["La Fórmula Magistral, és un medicament destinat a un pacient específic, preparat pel farmacèutic, omplint expressament una prescripció mèdica detallada de les substàncies medicinals que inclou, segons les normes terapèutiques i científiques de l'art farmacèutic, dispensat en la seva farmàcia i amb la deguda informació per a l'usuari.",
+ 				"Disposem d'un laboratori a les nostres instal•lacions destinat a l'elaboració de Fórmules Magistrals sota prescripció mèdica i de Productes Oficinals."
+				],
+    "tveterinaria": "Àmplia secció de productes veterinaris per cuidar les seves mascotes i evitar zoonosis, és a dir, tota malaltia que es pugui transmetre d'els animals als éssers humans. Igualment podem encarregar qualsevol producte que necessiti.",
+    "tsigre": "Recollim els envasos i restes de medicaments d'origen domèstic que ja no s'utilitzen o que estan caducats per a una correcta gestió mediambiental.",
+    "tweb": "Ens adaptem a les noves tecnologies, oferint-li la possibilitat de realitzar les seves compres de parafarmàcia desde casa."   
+    
+    
+  }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Feel goodd</title>
+    
+    
+    
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css" />
+    <link rel="stylesheet" href="css/reminder.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
+        
+        <link rel="stylesheet" href="css/jqm-datebox.css" />
+        <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="jquerymobile/jquery.mobile-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/i18next-1.6.3.min.js"></script>
+    <script src="js/jquery.plugin.min.js"></script>
+    <script src="js/jqm-datebox.core.js "></script>
+    <script src="js/jqm-datebox.mode.flipbox.js"></script>
+    <script src="js/jqm-datebox.mode.calbox.js"></script>
+
+
+       <script src="js/date.js"></script>
+    <script src="js/AdMob.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/local-notification.js"></script>
+    <script type="text/javascript">
+        //alert("init");
+     
+      //alert('ss');
+
+      
+ 
+      //var test2 = new Countdown( { style: "boring", time: 33 } );
+
+     </script>
+    
+    </head>
+    
+    
+    
+    <body>
+
+<div data-role="page" id="home" data-theme="b">
+	<!-- default panel  -->
+	<div data-role="panel" id="defaultpanel">
+        
+        <h3>Descripcion</h3>
+        <span id="desc_ejercicio">
+            <p>Partiendo de una posición neutra (cuello recto, brazos estirados y relajados al lado del cuerpo), inclinar la cabeza hacia atrás , mantener esta posición. Recuperar la posición inicial e inclinar la cabeza hacia delante, mantener esta posición. <br>
+            Repetir.</p>
+        </span>
+
+        <a href="#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-left ui-btn-inline">Cerrar</a>
+        
+	</div><!-- /default panel -->
+    
+    
+    
+    
+	<div data-role="header" data-theme="b">
+        <h1>Feel good</h1>
+        <a href="#Barras" data-role="button" data-icon="bars" data-iconpos="notext" ></a>
+	</div>
+    <div data-role="content" data-theme="b" >
+        <div id="titulo_e" align="center">Estiramiento cervical</div>
+        <table align="center"><tr><td valign="top"><br>
+        <div id="swipeleft"  style="float:right"><a href="#" data-role="button" data-icon="carat-l" data-iconpos="notext" onclick="anterior_ejercicio()"></a><p></p>
+            <!--<a href="#" onclick="anterior_ejercicio()"><img src="./img/swipeleft.png" width="25px" align="center"></a>--></div>
+        </td><td width="95%">
+		<div id="gym" align="center">
+            <img id="gymimg" src="./img/ejercicios/ec_1.png" width="200px" align="center">
+        </div>
+        </td>
+        <td  valign="top"><br>
+        <div id="swipeleft" style="float:right"><a href="#" data-role="button" data-icon="carat-r" data-iconpos="notext" onclick="siguiente_ejercicio()"></a><p></p>
+            <!--<a href="#" onclick="siguiente_ejercicio()"><img src="./img/swiperight.png" width="25px" align="center"></a>--></div>
+        </td></tr></table>
+	<div id="repeticiones" align="center">quedan 3 repeticiones</div>
+		<a href="#defaultpanel" data-role="button" data-icon="info" data-theme="a" data-iconpos="right">Indicaciones</a>
+        
+        <div id="clock" align="center">
+            00:00</div>
+        <div align="center"><button data-inline="true" id="start" onclick="timer();">start</button><button data-inline="true" id="reset" onclick="reset();">reset</button><button data-inline="true" id="pause" onclick="pause();">pause</button></div>
+    </div>
+    <script>
+        crono = document.getElementById('clock')
+        start = document.getElementById('start'),
+        stop = document.getElementById('stop'),
+        clear = document.getElementById('clear'),
+        seconds = 0, minutes = 0, hours = 0,
+        t;
+    //timer();
+    function mistart(){
+        clearTimeout(t);
+        timer();
+    }
+    
+    function reset(){
+        crono.textContent = "00:00";
+        seconds = 0; minutes = 0; hours = 0;
+        clearTimeout(t);
+    }
+    function pause(){
+        clearTimeout(t);
+    }
+    function add() {
+        seconds++;
+        if (seconds >= 60) {
+            seconds = 0;
+            minutes++;
+            if (minutes >= 60) {
+                minutes = 0;
+                hours++;
+            }
+        }
+        
+        crono.textContent = (hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
+        
+        timer();
+    }
+    
+    function timer() {
+        t = setTimeout(add, 1000);
+    }
+    
+</script>
+    
+    
+	<div data-role="footer" data-position="fixed" data-theme="b" width="100%">
+        <div data-role="navbar" data-iconpos="left" data-theme="c"  data-grid="a">
+            <ul>
+                <li><a data-icon="home" href="#ejers" alt="Inicio" class="ui-btn-active ui-state-persist"><span data-i18n="menu.ejercicios"></span></a></li>
+                <li><a data-icon="gear" href="config.html" alt="Servicios"><span data-i18n="menu.configuracion" ></span></a></li>
+            </ul>
+            
+        </div><!-- /navbar -->
+        
+	</div><!-- /foot -->
+    </div><!-- /page -->
+
+
+
+
+    <div data-role="page" id="ejers">
+        <!-- default panel  -->
+        <div data-role="header" data-theme="b">
+            <h1>Feel good</h1>
+            <a href="#Barras" data-role="button" data-icon="bars" data-iconpos="notext" ></a>
+        </div><!-- /header -->
+        <div data-role="content" data-theme="b" >
+
+<ul data-role="listview" data-inset="true">
+    <li><a  href="#" onclick="miseleccion('cervicales');">Cervicales</a></li>
+     <li><a  href="#" onclick="miseleccion('lumbares');">Lumbares</a></li>
+      <li><a  href="#" onclick="miseleccion('todos');">Todos</a></li>
+</ul>
+
+<ul data-role="listview" data-inset="true">
+    <li data-icon="info"><a href="#estiramientos">estiramientos</a></li>
+    <li data-icon="info"><a href="#potenciacion">potenciación</a></li>
+</ul>
+
+                    </div><!-- /content -->
+        <div data-role="footer" data-position="fixed" data-theme="b" width="100%">
+            <div data-role="navbar" data-iconpos="top" data-theme="c"  data-grid="a">
+                <ul>
+                    <li><a data-icon="home" href="#home" alt="Inicio" class="ui-btn-active ui-state-persist"><span data-i18n="menu.inicio"></span></a></li>
+                    <li><a data-icon="gear" href="config.html" alt="Servicios"><span data-i18n="menu.configuracion" ></span></a></li>
+                </ul>
+                
+            </div><!-- /navbar -->
+            
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+
+
+
+<div data-role="page" id="estiramientos">
+    <!-- default panel  -->
+    <div data-role="header" data-theme="b">
+        <h1>Feel good</h1>
+        <a href="#Barras" data-role="button" data-icon="bars" data-iconpos="notext" ></a>
+    </div><!-- /header -->
+    <div data-role="content" data-theme="b" >
+        
+        <span id="ejercicio">
+            <p>Realizar el estiramiento manteniendo una tensión suave pero sin llegar a sentir dolor. Mantener la posición final del estiramiento durante al menos 5 segundos,  siendo recomendable  llegar hasta los 10 segundos. </p>
+            Reconocer y sentir el músculo que se está estirando.<br>Mantener una respiración lenta, rítmica y controlada.<br>Se aconseja coger el aire por la nariz y soltarlo suavemente por la boca al realizar el ejercicio.<br>
+            Dependiendo de si estamos más o menos habituados a la práctica de ejercicio físico, realizaremos más o menos número de repeticiones.
+        </span>
+      
+      
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" data-theme="b" width="100%">
+        <div data-role="navbar" data-iconpos="top" data-theme="c"  data-grid="a">
+            <ul>
+                <li><a data-icon="home" href="#home" alt="Inicio" class="ui-btn-active ui-state-persist"><span data-i18n="menu.inicio"></span></a></li>
+                <li><a data-icon="gear" href="config.html" alt="Servicios"><span data-i18n="menu.configuracion" ></span></a></li>
+            </ul>
+            
+        </div><!-- /navbar -->
+        
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+
+<div data-role="page" id="Barras">
+    <!-- default panel  -->
+    <div data-role="header" data-theme="b">
+        <h1>Feel good</h1>
+        <a href="#home" data-role="button" data-icon="back" data-iconpos="notext" ></a>
+    </div><!-- /header -->
+    <div data-role="content" data-theme="b" >
+        
+        <span id="ejercicio">
+            <p>
+            Esta aplicación tiene por objetivo recordar realizar unos ejercicios y recomienda realizar algunos habituales, si usted siente molestias de algún tipo, o tiene problemas de espalda o si tiene alguna duda, debe consultar con un médico especialista,
+            el cual es la persona adecuada para indicarle que ejercicios son recomendables para usted.
+            Realice los ejercicios con prudencia, su salud es importante y esta herramienta puede ayudarle a conservar su espalda en condiciones más saludables si la usa con regularidad.
+            Deseamos le resulte de utilidad.
+            <br>Gracias.
+            </p>
+        </span>
+        
+        
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" data-theme="b" width="100%">
+        <div data-role="navbar" data-iconpos="top" data-theme="c"  data-grid="a">
+            <ul>
+                <li><a data-icon="home" href="#home" alt="Inicio" class="ui-btn-active ui-state-persist"><span data-i18n="menu.inicio"></span></a></li>
+                <li><a data-icon="gear" href="config.html" alt="Servicios"><span data-i18n="menu.configuracion" ></span></a></li>
+            </ul>
+            
+        </div><!-- /navbar -->
+        
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+    </body>
+    
+    
+    
+</html>

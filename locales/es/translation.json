@@ -1,0 +1,134 @@
+{
+  "app": {
+    "name": "i18next",
+    "confirmareserva":"Desea realizar una reserva para: ",
+    "errorreserva":"Lo sentimos ha ocurrido un error en la reserva",
+    "nohaycodigo":"Es necesario un c\u00F3digo de cliente, puede solicitarlo en la opci\u00F3n usuario",
+    "anadido":"A\u00f1adido al calendario.",
+    "nohaycalendario":"No hay configurado ning\u00fan calendario en su dispositivo."
+
+  },
+  "home": {
+    "casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+
+  "menu": {
+    "inicio": "Inicio",
+    "usuario": "Usuario",
+    "actividad": "Actividad",
+    "redes": "Redes",
+    "servicios": "Servicios"
+  },
+ 
+  "opciones": {
+    "idioma": "Selecci\u00F3n de idioma (Espa\u00F1ol / Catal\u00E1n)", 
+    "tipouser": "Tipo de usuario (particular / Empresa)",
+    "part": "Part",
+    "comp": "Comp",
+    "introducir": "Introduzca aqu\u00ED su c\u00F3digo de cliente",
+    "validar": "Valida",
+    "e-mail": "e-mail"
+  },
+  
+  "index": {
+     "ofertas": "Ofertas",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail",
+    "localizacion": "Localizaci\u00f3n",
+    "notificacion": "Las notificaciones se eliminan al cerrar la aplicaci\u00f3n"
+  },
+  
+  
+  "usuario": {
+    "solicitud": "Pulse para solicitar su c\u00F3digo de cliente ",
+    "solicitar": "Solicitar",
+    "introducir": "si ya tiene su c\u00F3digo de cliente",
+    "pulse": "Introducir"
+  },
+
+  "actividad": {
+    "casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+  
+  "redes": {
+    "casa": "Inicio",
+    "tienda": "Tienda",
+    "llamar": "Llamar",
+    "e-mail": "e-mail"
+  },
+  
+  "servicio": {
+    "af": "Atenci\u00F3n farmac\u00E9utica",
+    "spd": "SPD",
+    "ad": "Asesoramiento en diet\u00E9tica y alimentaci\u00F3n nutricional",
+    "deporte": "Deporte",
+    "fito": "Fitoterapia Aromaterapia",
+    "homeo": "Homeopatia",
+    "dermo": "Dermofarm\u00E1cia",
+    "ain": "Alimentaci\u00F3n infantil",
+    "ayudas": "Ayudas ortop\u00E9dicas", 
+    "formulas": "F\u00F3rmulas magistrales",
+    "veterinaria": "Veterinaria",
+    "sigre": "Punto Sigre",
+    "web": "Web",
+    "taf": ["Entendemos por Atenci\u00F3n Farmac\u00E9utica, el proceso cooperativo para la provisi\u00F3n responsable de terapias farmacol\u00F3gicas a todos los pacientes de forma individualizada,  con el objetivo de resolver, buscar y prevenir  problemas relacionados con los medicamentos.",
+      "Sabemos que la polimedicaci\u00F3n sin una correcta Atenci\u00F3n Farmac\u00E9utica, puede dar lugar a importantes problemas de salud.",
+      "Le ofrecemos la posibilidad de hacerle un seguimiento de su tratamiento as\u00ED como resolverle cualquier duda sobre su medicaci\u00F3n para tratar de alcanzar los resultados  de salud esperados y mantener o mejorar su calidad de vida."
+      ],
+  "tspd": ["El Sistema Personalizado de Dosificaci\u00F3n de medicamentos consiste en preparar semanalmente la medicaci\u00F3n de nuestros pacientes , seg\u00FAn un sistema protocolizado , acreditado por el Colegio Oficial de Farmac\u00E9uticos de Barcelona, y bajo el consentimiento informado de su m\u00E9dico.",
+      "Los sistemas personalizados de dosificaci\u00F3n, son unos dispositivos de tipo blister, donde est\u00E1 distribuida toda la medicaci\u00F3n de forma farmac\u00E9utica s\u00F3lida que toma el paciente, quedando excluidas las formas farmac\u00E9uticas no s\u00F3lidas como los jarabes, los aerosoles, las pomadas, los comprimidos higrosc\u00F3picos ,...",
+      "El dispositivo, consta de 28 alveolos para distribuir la medicaci\u00F3n de una semana, quedando claramente identificados en lunes, martes, miercoles, jueves, viernes, s\u00E1bado, domingo en Vertical y en ma&ntilde;ana, mediodia, tarde y noche en horizontal.",
+      "La cara anterior del dispositivo, permite ver los medicamentos dentro de los alveolos transparentes y tiene suficiente espacio para adherir una etiqueta con los medicamentos, que por diversas causas no se pueden acondicionar."
+      ],
+    "tad": ["Para obtener una mejor calidad de vida, combinando la actividad f\u00EDsica, una dieta equilibrada y los complementos nutricionales adecuados, disponemos de una licenciada Farmac\u00E9utica y diplomada en Diet\u00E9tica y Nutrici\u00F3n Humana por la universidad Alfonso X el Sabio de Madrid, que le ense&ntilde;ar\u00E1 a elaborar su propia dieta para aprender a comer saludablemente de acuerdo con sus necesidades reales.",
+        "Elaboramos  dietas en patolog\u00EDas ( Dietoterapia ) como Obesidad, Diabetis, Colesterol, An\u00E9mia, Insuficiencia Renal, Insuficiencia Hep\u00E1tica, Celiaqu\u00EDa, Intolerancia a la Lactosa...",
+        "Para ello, disponemos de una extensa gama de alimentos sin gluten, sin az\u00FAcares, ricos en fibra, ricos en \u00E1cidos Omega 3, as\u00ED como nutric\u00ED\u00F3n macrobi\u00F3tica y complementos de micronutrici\u00F3n."
+        ],
+    "tdeporte": ["Sabemos que el ejercicio f\u00EDsico es b\u00E1sico e indispensable para tener una buena calidad de vida, por ello disponemos de un  amplio surtido de complementos nutricionales y alimentos funcionales que benefician el rendimiento de la actividad  f\u00EDsica as\u00ED como la salud de nuestros pacientes. ",
+        "Nuestro equipo, tambi\u00E9n podr\u00E1 asesorarle en todo tipo de ayudas t\u00E9cnicas para los amantes del deporte. "
+        ],
+    "tfito": ["La Fitoterapia es la rama de la medicina que utiliza las plantas con propiedades terapeuticas para curar determinadas afecciones.",
+        "Los preparados fitoterapeuticos pueden formarse a partir de la planta entera o solamente de una parte de ella. Seg\u00FAn la parte que se utilice, puede tener diferente aplicaciones .",
+        "La Aromaterapia, es la terapia mediante aromatos, es decir, mediante los aceites esenciales que se extraen de las plantas arom\u00E1ticas.",
+        "Es por tanto una terapia natural que se basa en la acci\u00F3n terapeutica de moleculas bioqu\u00EDmicas de los aceites esenciales.",
+        "El aceite esencial, es el extracto obtenido al destilar la esencia de la planta. Est\u00E1n formados por una compleja composici\u00F3n de elementos org\u00E1nicos combinados, por ello se les atribuyen numerosas propiedades terapeuticas.", 
+        "Se debe tener precauci\u00F3n en su uso en embarazo, lactancia, reci\u00E9n nacidos y ni&ntilde;os inferiores a 2 a&ntilde;os de edad, epilepsia, y pacientes tratados con homeoptia que deben evitar tomar aceite essencial de menta, ya que disminuye la absorci\u00F3n del medicamento homeop\u00E1tico.",
+        "En Farmacia Marta Gento, disponemos de una amplia gama de productos para la prevenci\u00F3n y el tratamiento de enfermedades o patologias con plantas medicinales y/ o aceites esenciales."
+        ],
+    "thomeo": ["Hahneman, creia que la enfermedad se podia curar mediante el principio de la similitud, es decir administrando a un enfermo una sustancia que le produciera a un sujeto sano los mismos s\u00EDntomas que el enfermo tenia.",
+        "As\u00ED pues, una misma enfermedad, puede tener m\u00FAltiples tratamientos seg\u00FAn como lo manifieste el individuo.",
+        "El remedio homeopatico, act\u00FAa por diluciones y dinamizaciones de extractos de origen vegetal, animal, y mineral en una base l\u00EDquida ( glicerina, alcohol, agua destilada ), s\u00F3lida ( sacarosa, lactosa ), o trituraci\u00F3n ( polvo de lactosa).",
+        "Las diferentes cepas homeopaticas, se presentan individualmente o formando compuestos espec\u00EDficos para las diferentes dolencias.",
+        "Puede consultar  cualquier duda a nuestra licenciada en Farmacia y Homeopata  por la Universidad de Medicina de Zaragoza."
+        ],
+    "tdermo": ["El cuidado del cuerpo y el rostro, es fundamental para nuestra salud y bienestar.",
+        "Nuestra experta en dermofarmacia,  conoce los beneficios de un amplio y extenso surtido de productos, pudiendo aconsejar  y elegir la mejor opci\u00F3n para cada necesidad.",  
+        "La constante formaci\u00F3n de nuestro equipo, nos posiciona como una farmacia de referencia en el cuidado facial y corporal.",
+        "Disponemos  de las \u00FAltimas novedades dermocosm\u00E9ticas, y de todo tipo de productos  naturales, bio, sin parabenos, hipoaleg\u00E9nicos, correctores, etc."
+        ],
+    "tain": ["La correcta alimentaci\u00F3n desde el inicio de nuestras vidas, es fundamental para un correcto desarroyo f\u00EDsico y mental.",
+            "La adecuada introducci\u00F3n de los alimentos en  nuestros primeros meses de vida ( Beikost ), as\u00ED como la calidad de los mismos, determina el futuro de nuestra salud .",
+            "Disponemos de un amplio surtido de alimentaci\u00F3n infantil de m\u00E1xima calidad con la atenci\u00F3n personalizada de nuestra farmac\u00E9utica experta en alimentaci\u00F3n y suplementaci\u00F3n infantil."
+            ],
+    "tayudas": ["La ortopedia es una especialidad m\u00E9dica dedicada a corregir o evitar las deformidades o traumas del sistema musculoesqueletico del cuerpo humano, por medio de ortesis ( aparatos ) o ejercicios corporales.",
+        "Existe una gran variedad de ayudas ortopedicas que le pueden proporcionar  una mayor comodidad en su desarrollo f\u00EDsico.",
+        "Consultenos. "
+        ], 
+    "tformulas": ["La Formula Magistral, es un medicamento destinado a un paciente en espec\u00EDfico, preparado por el farmac\u00E9utico, cumplimentando expresamente una prescripci\u00F3n m\u00E9dica detallada de las sustancias medicinales que incluye, seg\u00FAn las normas t\u00E9cnicas y cient\u00EDficas del arte farmac\u00E9utico, dispensado en su farmacia y con la debida informaci\u00F3n al usuario.",
+        "Disponemos de un laboratorio en nuestras instalaciones destinado a la elaboraci\u00F3n de Formulas Magistrales bajo prescripci\u00F3n m\u00E9dica y de Productos Oficinales."
+        ],
+    "tveterinaria": "Amplia secci\u00F3n de productos de veterinaria para cuidar sus mascotas y evitar zoonosis, es decir, toda enfermedad que pueda transmitirse de animales a seres humanos. Igualmente podemos encargar cualquier producto que necesite.",
+    "tsigre": "Recojemos los envases y restos de medicamentos de or\u00EDgen dom\u00E9stico que ya no se usan o que est\u00E1n caducados para una correcta gesti\u00F3n medioambiental.  ",
+    "tweb": "Nos adaptamos a las nuevas tecnolog\u00EDas, ofreciendole la posibilidad de realizar sus compras de parafarmacia desde casa. "   
+      
+    
+    
+  }
+}
